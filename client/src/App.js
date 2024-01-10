@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import SpreadOperator from './R011_SpreadOperator'
+import SpreadOperator from './PART1/R011_SpreadOperator'
 
 function App() {
   return (
