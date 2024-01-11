@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ArrowFunc from './PART1/R014_ForEach'
+import ArrowFunc from './PART1/R015_Map'
 
 function App() {
   return (
