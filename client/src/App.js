@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ArrowFunc from './PART1/R015_Map'
+import ArrowFunc from './PART1/R016_Jquery'
 
 function App() {
   return (
