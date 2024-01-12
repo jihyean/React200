@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import ReactState from './PART2/R024_ReactState'
+import SetState from './PART2/R025_SetState'
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      {/* props: 상위 컴포넌트에서 하위 컴포넌트로 데이터를 전달할때 사용 */}
-      {/* state: 하나의 컴포넌트 안에서 전역변수처럼 사용 */}
-      <ReactState reactString={"react"}/>
+      {/* this.state.변수명=value와 같이 state를 직접 변경 -> render() 함수 미호출 -> 화면 출력의 state 값은 미변경 */}
+      {/* setState() 함수로 변경 -> render() 함수 호출 -> 변경된 값 화면표시 */}
+      <SetState />
     </div>
   );
 }
