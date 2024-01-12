@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
-import PropsDefault from './PART2/R022_PropsDefault'
+import PropsNode from './PART2/R023_PropsNode'
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      {/* props의 기본값은 부모 컴포넌트에서 값이 넘어오지 않았을때 사용 */}
-      {/** ReactNumber 변수에 값 200을 할당하여 props에 담아 하위 컴포넌트에 전달 */}
-      <PropsDefault ReactNumber={200} />
+      {/* props를 하위 컴포넌트 태그 안쪽에 선언하는 방법외에도 하위 컴포넌트 태그 사이에 작성도니 node를 전달할 수 있다 */}
+      <PropsNode>
+        <span>node from App.js</span>
+      </PropsNode>
     </div>
   );
 }
