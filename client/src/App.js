@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
-import ForceUpdate from './PART2/R026_ForceUpdate'
+import ComponentClass from './PART2/R027_ComponentClass'
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      {/* this.state.변수명=value와 같이 state를 직접 변경 -> render() 함수 미호출 -> 화면 출력의 state 값은 미변경 */}
-      {/* 값을 직접 변경 -> forceUpdate 함수로 화면을 새로고침 -> render() 함수 호출 -> 변경된 값 화면 표시 */}
-      <ForceUpdate />
+      {/* class형 컴포넌트 2가지: 1.Component 2.PureComponent */}
+      {/* 두 컴포넌트 모두 props와 state의 변경에 따라 render() 함수 사용 */}{/* 둘의 변경 기준이 다름 */}
+      {/* 1.Component 에서는 비교 대상이 완전히 동일하지 않을시 -> 변경 발생 */}
+      <ComponentClass />
     </div>
   );
 }
