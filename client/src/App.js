@@ -1,14 +1,21 @@
 import React from 'react';
 import './App.css';
-import Props from './PART2/R017_Props'
+import PropsDatatype from './PART2/R018_PropsDatatype'
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      {/** 하위 컴포넌트 R017_Props에 전달할 props 변수(props_val)에 값(THIS IS PROPS) 저장 */}
-      <Props props_val = "THIS IS PROPS"/> 
+      {/** 문자열, 숫자, 불리언, 배열, 객체, 함수 데이터를 props에 담아 하위 컴포넌트로 전달 */}
+      <PropsDatatype 
+        String="react"
+        Number={200}
+        Boolean={1==1}
+        Array={[0, 1, 8]}
+        ObjectJson = {{react:"리액트", twohundred:"200"}}
+        Function = {console.log("FunctionProps: function!")}
+      /> 
     </div>
   );
 }
