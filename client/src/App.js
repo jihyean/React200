@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import ShallowEqual from './PART2/R029_ShallowEqual'
+import FunctionComponent from './PART2/R030_FunctionComponent'
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      {/* PureComponent에서 state값의 변경을 비교하는 것과 동일한 기능 함수 제공 */}
-      {/* shallowEqualArrays() 함수 사용시 문자열과 배열은 값만 비교 */}
-      {/* 객체는 PureComponent와 동일하게 참조 값을 비교한다 */}
-      <ShallowEqual />
+      {/* 함수형은 클래스형 컴포넌트와 달리 state가 없고 생명주기 함수 사용 불가 */}
+      {/* 상위 컴포넌트에서 props와 context를 파라미터로 전달받아 사용 */}
+      {/* render() 함수가 없음 -> return만 사용하여 화면 구성 */}
+      <FunctionComponent contents="[THIS IS FunctionComponent ]" />
     </div>
   );
 }
