@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import ReactHook from './PART2/R031_ReactHook'
+import Fragments from './PART2/R032_Fragments'
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      {/* 함수형 컴포넌트에서 클래스형처럼 state, 생명주기 함수와 같은 기능을 사용하기 위해 hook 사용
-      hook 함수: useState(), useEffect() */}
-      <ReactHook />
+      {/* 컴포넌트 단위로 element를 return할 때 하나의 <html> 태그로 전체를 감싸지 않을시 에러 발생 */}
+      {/* <Fragments> 태그로 감싸면 불필요한 <html> 태그를 추가하지 않고 사용 가능 */}
+      <Fragments />
     </div>
   );
 }
