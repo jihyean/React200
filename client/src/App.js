@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ReactstrapBreadcrumbs from './PART2/R036_ReactstrapBreadcrumbs'
+import ReactstrapDropdown from './PART2/R037_ReactstrapDropdown'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <ReactstrapBreadcrumbs />
+      <ReactstrapDropdown />
     </div>
   );
 }
