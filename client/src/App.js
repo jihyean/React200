@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ReactstrapCollapse from './PART2/R042_ReactstrapCollapse'
+import ReactstrapFade from './PART2/R043_ReactstrapFade'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <ReactstrapCollapse />
+      <ReactstrapFade />
     </div>
   );
 }
