@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ReactstrapTab from './PART2/R055_ReactstrapTab'
+import Sweetalert2Basic from './PART2/R056_Sweetalert2Basic'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <ReactstrapTab />
+      <Sweetalert2Basic />
     </div>
   );
 }
