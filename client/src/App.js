@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ReactstrapPagination from './PART2/R050_ReactstrapPagination'
+import ReactstrapPopover from './PART2/R051_ReactstrapPopover'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <ReactstrapPagination />
+      <ReactstrapPopover />
     </div>
   );
 }
