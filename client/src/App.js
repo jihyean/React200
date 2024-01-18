@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ReactstrapSpinner from './PART2/R053_ReactstrapSpinner'
+import ReactstrapTable from './PART2/R054_ReactstrapTable'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <ReactstrapSpinner />
+      <ReactstrapTable />
     </div>
   );
 }
