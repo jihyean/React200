@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Sweetalert2Basic from './PART2/R056_Sweetalert2Basic'
+import Sweetalert2Position from './PART2/R057_Sweetalert2Position'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <Sweetalert2Basic />
+      <Sweetalert2Position />
     </div>
   );
 }
