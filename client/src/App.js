@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Sweetalert2Confirm from './PART2/R058_Sweetalert2Confirm'
+import FetchGet from './PART2/R059_FetchGet'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <Sweetalert2Confirm />
+      <FetchGet />
     </div>
   );
 }
