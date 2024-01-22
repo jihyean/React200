@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import AxiosGet from './PART2/R061_AxiosGet'
+import AxiosPost from './PART2/R062_AxiosPost'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <AxiosGet />
+      <AxiosPost />
     </div>
   );
 }
