@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Promise from './PART2/R064_Promise'
+import Promise from './PART2/R065_Promise'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
