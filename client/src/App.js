@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ReactMouseOut from './PART3/R070_onMouseOut'
+import ReactOnKey from './PART3/R071_OnKey'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <ReactMouseOut />
+      <ReactOnKey />
     </div>
   );
 }
