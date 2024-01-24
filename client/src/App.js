@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ReactonSubmit from './PART3/R072_onSubmit'
+import ReactRef from './PART3/R073_ReactRef'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <ReactonSubmit />
+      <ReactRef />
     </div>
   );
 }
